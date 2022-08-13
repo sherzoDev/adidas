@@ -1,0 +1,141 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v25-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v25-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v25-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.adidas__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1280px;
+    height: 720px;
+    background-color: #232323;
+    padding: 85px 0;
+    padding-left: 77px;
+    padding-right: 57px;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.adidas__img-box {
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.adidas__desc-box {
+    padding-left: 53px;
+}
+
+.adidas__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.adidas__sneakers {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.star-box {
+    margin: 34px 0;
+}
+
+.adidas__text {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.adidas__strong {
+    margin-right: 95px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #00B2FF;
+}
+
+.adidas__btn {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    background-color: #00B2FF;
+    padding: 11px 57px;
+    text-decoration: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
